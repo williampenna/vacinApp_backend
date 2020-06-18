@@ -2,5 +2,3 @@ export interface Person {
     firstName: string;
     lastName: string;
 }
-
-exports = Person;

@@ -1,4 +1,4 @@
-import { Person } from '../interfaces/person';
+import { Person } from './interfaces/person';
 
 export const handler = async (req: any, res: any) => {
     try {
