@@ -19,6 +19,7 @@
     "outDir": "dist"
   },
   "include": ["app/src/**/*.ts", "app/src/**/*.d.ts"],
+  "exclude": ["node_modules"],
   "compileOnSave": false,
   "ts-node": {
     "files": true

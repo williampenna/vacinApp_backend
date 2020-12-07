@@ -1,4 +1,4 @@
-import Joi from 'joi-i18n';
+import * as Joi from 'joi-i18n';
 
 const vaccineCreateSchema = Joi.object({
   name: Joi.string().max(40).required(),
