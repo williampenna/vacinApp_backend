@@ -1,9 +1,12 @@
 import express from 'express';
-import { testRouter } from './routes/v1/tests';
+import vaccineRouter from './routes/v1/vaccine';
+
 const app = express();
 
-app.use(testRouter);
+app.use(vaccineRouter);
 
-app.listen(3000, function() {
-    console.log(':rocket running on port 3000!');
-})
+// eslint-disable-next-line prefer-arrow-callback
+app.listen(3000, () => {
+  // eslint-disable-next-line no-console
+  console.log(':rocket running on port 3000!');
+});
